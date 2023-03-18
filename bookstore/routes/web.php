@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Livewire\Pages\FamousAuthor;
+use App\Http\Livewire\Pages\InputRating;
 use App\Http\Livewire\Pages\ListBooks;
 use Illuminate\Support\Facades\Route;
 
@@ -14,4 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', ListBooks::class)->name('home');
+Route::get('/', ListBooks::class)->name('listBook');
+Route::get('/famous', FamousAuthor::class)->name('famousAuthor');
+Route::get('/rating', InputRating::class)->name('inputRating');
