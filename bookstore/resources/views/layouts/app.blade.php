@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Book Store</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}">
+
     @livewireStyles
-    
+
   </head>
   <body class="bg-light">
     <main class="container">
