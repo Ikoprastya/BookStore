@@ -1,3 +1,16 @@
+## Configuration
+- Instal Composer
+- run composer require livewire/livewire
+- run cp .env.example .env
+- create database
+- run php artisan migrate
+- run php artisan db:seed --class=BookSeeder
+- run php artisan key:generate
+- run php artisan serve
+
+nb: open web php to see the url route
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
